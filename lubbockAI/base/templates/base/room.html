@@ -1,0 +1,15 @@
+
+
+{% block content %}
+
+<h1>{{room.name}}</h1>
+
+{% for N in data.nums %}
+	<div>
+		<a href="https://github.com/Tofudog/USACO_Journey" target="_blank">
+			<h3>USACO link with random number: {{N}}</h3>
+		</a>
+	</div>
+{% endfor %}
+
+{% endblock content %}
